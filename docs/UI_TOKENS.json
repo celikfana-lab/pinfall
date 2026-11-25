@@ -1,0 +1,661 @@
+{
+  "meta": {
+    "project": "PinFall",
+    "source": "nl.pinterest.com guest web UI, Chrome 154 headless, 1x DPR, 2026-10-27",
+    "method": "CDP computed styles + getBoundingClientRect of live DOM; colors from CSS custom properties and pixel sampling; scrim alpha derived from dimmed vs undimmed screenshots",
+    "notes": [
+      "Guest pin close-up is login-gated (pin URLs redirect to /ideas/); close-up section is a reconstruction from Pinterest's desktop close-up, marked estimated in docs/UI.md.",
+      "Guest search grid shows image-only cards (no captions). Caption metrics are for PinFall's own cards (Pinterest's logged-in feed style), marked estimated.",
+      "Headless Chrome uses overlay scrollbars (0 layout px) so all widths are content widths."
+    ]
+  },
+  "colors": {
+    "background": "#ffffff",
+    "surface": "#ffffff",
+    "surface_secondary": "#e5e5e0",
+    "surface_hover": "#f6f6f3",
+    "surface_pressed": "#efefeb",
+    "search_field": "#e5e5e0",
+    "image_placeholder": "#efefef",
+    "chip_fade_edge": "#ffffff",
+    "text_primary": "#211922",
+    "text_strong": "#000000",
+    "text_secondary": "#62625b",
+    "text_muted_legacy": "#767676",
+    "text_inverse": "#ffffff",
+    "text_link": "#2b48d4",
+    "link_hover": "#2741bf",
+    "border_light": "#efefef",
+    "border": "#cdcdcd",
+    "border_strong": "#c8c8c1",
+    "brand_red": "#e60023",
+    "brand_red_hover": "#cc001f",
+    "brand_red_pressed": "#b2001b",
+    "white": "#ffffff",
+    "black": "#000000",
+    "scrim": "rgba(0,0,0,0.60)",
+    "scrim_hex_approx": "#666666",
+    "hover_image_overlay": "rgba(0,0,0,0.25)",
+    "hover_top_gradient": "rgba(0,0,0,0.40) -> rgba(0,0,0,0)",
+    "focus_ring": "#0074e8",
+    "skeleton_shimmer": "#efefef",
+    "chip_pastels": {
+      "green": "#83ddad",
+      "green_weak": "#c7f0da",
+      "blue": "#92a4ff",
+      "purple": "#fbdfff",
+      "orange": "#ffb380",
+      "red": "#ff8f8f",
+      "yellow": "#f6e6a3"
+    },
+    "grayscale_scale": {
+      "0": "#ffffff",
+      "25": "#fbfbf9",
+      "50": "#f6f6f3",
+      "100": "#e5e5e0",
+      "150": "#c8c8c1",
+      "200": "#91918c",
+      "250": "#74746c",
+      "300": "#62625b",
+      "350": "#494943",
+      "400": "#33332e",
+      "450": "#242421",
+      "475": "#181816",
+      "500": "#000000"
+    }
+  },
+  "metrics": {
+    "viewport_reference": {
+      "w": 1920,
+      "h": 1080
+    },
+    "header": {
+      "height": 80,
+      "padding_x": 16,
+      "padding_y": 16,
+      "position": "fixed",
+      "z_index": 671,
+      "background": "#ffffff",
+      "logo": {
+        "x": 28,
+        "y": 29.5,
+        "w": 98,
+        "h": 18,
+        "kind": "SVG wordmark (Pinterest script + red P mark)"
+      },
+      "logo_cluster_x": 16,
+      "left_cluster_width": 210,
+      "explore_link": {
+        "x": 138,
+        "y": 16,
+        "w": 88,
+        "h": 48,
+        "label_size": 16,
+        "label_weight": 500
+      },
+      "right_cluster": {
+        "start_x_from_right": 220.2,
+        "login_button": {
+          "x_from_right": 220.2,
+          "w": 76.2,
+          "h": 48,
+          "radius": 16,
+          "bg": "#e5e5e0",
+          "text": "#000000"
+        },
+        "signup_button": {
+          "x_from_right": 136,
+          "w": 88,
+          "h": 48,
+          "radius": 16,
+          "bg": "#e60023",
+          "text": "#ffffff"
+        },
+        "chevron_button": {
+          "x_from_right": 48,
+          "w": 32,
+          "h": 48,
+          "radius": 16
+        },
+        "right_margin": 16,
+        "gap_login_signup": 8
+      },
+      "at_1920": {
+        "search_pill_x": 242,
+        "login_x": 1699.8,
+        "signup_x": 1784,
+        "chevron_x": 1872
+      },
+      "at_1440": {
+        "search_pill_x": 242,
+        "login_x": 1219.8,
+        "signup_x": 1304,
+        "chevron_x": 1392
+      },
+      "at_1024": {
+        "search_pill_x": 272,
+        "login_x": 803.8,
+        "signup_x": 888,
+        "chevron_x": 976,
+        "note": "left cluster widens to 240px (logo shifts), Explore link hidden"
+      },
+      "home_variant": {
+        "note": "logged-out home/ideas header differs: nav links About/Businesses/Create/News before buttons; Log in is the red primary pill, Sign up is #e5e5e0 secondary",
+        "nav_link_size": 16,
+        "nav_link_weight": 500,
+        "about_x": 1372.5,
+        "log_in": {
+          "x": 1731.8,
+          "w": 76.2,
+          "h": 48,
+          "radius": 16,
+          "bg": "#e60023",
+          "text": "#ffffff"
+        },
+        "sign_up": {
+          "x": 1816,
+          "w": 88,
+          "h": 48,
+          "radius": 16,
+          "bg": "#e5e5e0",
+          "text": "#000000"
+        }
+      }
+    },
+    "search_bar": {
+      "height": 48,
+      "radius": 24,
+      "background": "#e5e5e0",
+      "input_font_size": 16,
+      "input_font_weight": 400,
+      "input_color": "#000000",
+      "placeholder_color": "#62625b",
+      "inner_padding_left": 16,
+      "inner_padding_right": 8,
+      "icon_size": 16,
+      "gap_icon_to_text": 8,
+      "cancel_icon_size": 16,
+      "right_gap_to_login": 16,
+      "y": 16,
+      "width_formula": "pillW = (W - 236) - 242   => 1920: 1441.8; 1440: 961.8; 1024: 515.8",
+      "at_1920": {
+        "x": 242,
+        "y": 16,
+        "w": 1441.8,
+        "h": 48,
+        "right_edge": 1683.8
+      },
+      "at_1440": {
+        "x": 242,
+        "y": 16,
+        "w": 961.8,
+        "h": 48,
+        "right_edge": 1203.8
+      },
+      "at_1024": {
+        "x": 272,
+        "y": 16,
+        "w": 515.8,
+        "h": 48,
+        "right_edge": 787.8
+      },
+      "right_edge_rule": "W - 236"
+    },
+    "filter_chip_row": {
+      "present_on": "search results page only",
+      "y": 80,
+      "height": 70,
+      "chip_height": 48,
+      "chip_y_offset": 5,
+      "chip_radius": 16,
+      "chip_gap": 8,
+      "chip_padding_x": 16,
+      "chip_font_size": 16,
+      "chip_font_weight": 600,
+      "icon_button_size": 48,
+      "icon_button_radius": 16,
+      "padding_bottom": 12,
+      "first_chip_x": 96,
+      "bottom_fade_height": 30,
+      "bottom_fade": "linear-gradient(rgba(255,255,255,0) 0%, #ffffff 100%)"
+    },
+    "feed": {
+      "top_offset_with_chips": 162,
+      "top_offset_no_chips": 96,
+      "outer_inset_x": 20,
+      "gutter": 16,
+      "vertical_gap": 16,
+      "scroll_container": "inner scroll div under the fixed header (document does not scroll)",
+      "fill_policy": "masonry, shortest-column first",
+      "card_radius": 16,
+      "card_bg": "#ffffff",
+      "image_placeholder_bg": "#efefef",
+      "card_shadow": "none (cards are flat; only image corners rounded)",
+      "card_hover_scale": 1.0,
+      "hover_overlay": "rgba(0,0,0,0.25) full-image wash + Save pill (estimated; guest grid has no hover overlay)"
+    },
+    "masonry": {
+      "column_count_formula": "N = max(2, ceil((W - 260) / 236))",
+      "card_width_formula": "cardW = (W - 40 - (N - 1) * 16) / N",
+      "card_width_formula_simple": "cardW = (W - 40 - (N-1)*gutter) / N",
+      "measured": [
+        {
+          "viewport_w": 2560,
+          "columns": 10,
+          "card_w": 237.59,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1920,
+          "columns": 8,
+          "card_w": 221.0,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1728,
+          "columns": 7,
+          "card_w": 227.42,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1600,
+          "columns": 6,
+          "card_w": 246.66,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1440,
+          "columns": 5,
+          "card_w": 267.19,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1366,
+          "columns": 5,
+          "card_w": 252.39,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1280,
+          "columns": 5,
+          "card_w": 235.19,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1200,
+          "columns": 4,
+          "card_w": 277.99,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1100,
+          "columns": 4,
+          "card_w": 252.99,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 1024,
+          "columns": 4,
+          "card_w": 233.99,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 900,
+          "columns": 3,
+          "card_w": 275.99,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 800,
+          "columns": 3,
+          "card_w": 242.66,
+          "gutter": 16
+        },
+        {
+          "viewport_w": 600,
+          "columns": 2,
+          "card_w": 271.99,
+          "gutter": 16
+        }
+      ],
+      "at_1920x1080": {
+        "columns": 8,
+        "card_w": 221,
+        "gutter": 16,
+        "first_card_x": 20,
+        "last_card_right": 1900,
+        "feed_top": 162
+      },
+      "at_1440x900": {
+        "columns": 5,
+        "card_w": 267.2,
+        "gutter": 16,
+        "first_card_x": 20,
+        "last_card_right": 1420,
+        "feed_top": 162
+      },
+      "at_1024x768": {
+        "columns": 4,
+        "card_w": 234,
+        "gutter": 16,
+        "first_card_x": 20,
+        "last_card_right": 1004,
+        "feed_top": 162
+      }
+    },
+    "pin_card": {
+      "radius": 16,
+      "image_radius": 0,
+      "image_clipped_by_radius": true,
+      "card_padding": 0,
+      "image_placeholder_bg": "#efefef",
+      "height": "determined by image aspect ratio (guest grid: image height only)",
+      "observed_image_heights_at_1920": [
+        294,
+        295,
+        310,
+        313,
+        329,
+        331,
+        392,
+        394,
+        395,
+        420
+      ],
+      "caption": {
+        "present": "logged-in feeds / PinFall cards (guest search grid hides it)",
+        "title_size": 16,
+        "title_weight": 700,
+        "title_color": "#211922",
+        "title_line_height": 1.4,
+        "title_max_lines": 2,
+        "title_overflow": "ellipsis",
+        "caption_padding_x": 4,
+        "caption_padding_top": 8,
+        "caption_padding_bottom": 0,
+        "gap_below_image": 8,
+        "note": "measured from Pinterest idea/board cards (16px/700, 2-line wrap); pin grid captions are not shown for guests"
+      },
+      "hover": {
+        "overlay_alpha": 0.25,
+        "overlay_color": "#000000",
+        "save_button": {
+          "h": 40,
+          "radius": 20,
+          "pad_x": 16,
+          "bg": "#e60023",
+          "text": "#ffffff",
+          "text_size": 16,
+          "text_weight": 700,
+          "top": 8,
+          "right": 8
+        },
+        "top_gradient_height": 80,
+        "cursor": "pointer"
+      }
+    },
+    "detail_closeup": {
+      "reachable": false,
+      "reachable_note": "guest /pin/<id>/ redirects to /ideas/; all values below are ESTIMATED from Pinterest's standard desktop close-up (documented in docs/UI.md as approximate)",
+      "scrim": "rgba(0,0,0,0.60)",
+      "panel_max_width": 1016,
+      "panel_radius": 16,
+      "panel_height": "min(90vh, image natural height + padding), image pane capped at 90vh",
+      "image_pane_width": 508,
+      "info_pane_width": 508,
+      "image_pane_padding": 0,
+      "info_pane_padding": 32,
+      "close_button": {
+        "size": 48,
+        "radius": 24,
+        "bg": "#ffffff",
+        "icon_color": "#000000",
+        "x": 16,
+        "y": 16
+      },
+      "title": {
+        "size": 28,
+        "weight": 700,
+        "line_height": 1.1,
+        "letter_spacing": -0.5,
+        "color": "#000000"
+      },
+      "description": {
+        "size": 16,
+        "weight": 400,
+        "line_height": 1.4,
+        "color": "#211922"
+      },
+      "meta_link": {
+        "size": 14,
+        "weight": 600,
+        "color": "#211922"
+      },
+      "save_button": {
+        "h": 48,
+        "radius": 24,
+        "pad_x": 20,
+        "bg": "#e60023",
+        "text": "#ffffff",
+        "size": 16,
+        "weight": 700
+      },
+      "action_icon_button": {
+        "size": 48,
+        "radius": 24,
+        "hover_bg": "#f6f6f3"
+      }
+    },
+    "scrollbar": {
+      "layout_width_measured_headless": 0,
+      "layout_width_typical_linux_chrome": 15,
+      "pinterest_custom_css": false,
+      "recommended_custom": {
+        "width": 8,
+        "track": "transparent",
+        "thumb": "rgba(0,0,0,0.20)",
+        "thumb_hover": "rgba(0,0,0,0.35)",
+        "radius": 4,
+        "right_margin": 2,
+        "min_thumb_h": 40,
+        "fade_after_ms": 1000
+      }
+    },
+    "buttons": {
+      "primary": {
+        "h": 48,
+        "radius": 16,
+        "pad_x": 16,
+        "bg": "#e60023",
+        "bg_hover": "#cc001f",
+        "bg_pressed": "#b2001b",
+        "text": "#ffffff",
+        "text_size": 16,
+        "text_weight": 500
+      },
+      "secondary": {
+        "h": 48,
+        "radius": 16,
+        "pad_x": 16,
+        "bg": "#e5e5e0",
+        "bg_hover": "#dadad3",
+        "bg_pressed": "#efefeb",
+        "text": "#000000",
+        "text_size": 16,
+        "text_weight": 500
+      },
+      "tertiary_icon": {
+        "size": 48,
+        "radius": 24,
+        "hover_bg": "#f6f6f3"
+      }
+    },
+    "home_page": {
+      "content_max_width": 1140,
+      "content_x_at_1920": 390,
+      "hero_title": {
+        "size": 48,
+        "weight": 900,
+        "line_height": 52.8,
+        "letter_spacing": -0.5,
+        "rect_at_1920": {
+          "x": 390,
+          "y": 242.3,
+          "w": 473,
+          "h": 105.6
+        }
+      },
+      "hero_cta": {
+        "h": 48,
+        "radius": 16,
+        "primary_bg": "#e60023",
+        "secondary_bg": "#e5e5e0",
+        "y_at_1920": 383.9
+      },
+      "section_header": {
+        "size": 36,
+        "weight": 900,
+        "line_height": 39.6,
+        "letter_spacing": -0.5,
+        "y_at_1920": 702.5
+      },
+      "idea_tiles": {
+        "columns": 4,
+        "tile_w": 273,
+        "gap": 16,
+        "radius": 16,
+        "first_tile_x_at_1920": 390,
+        "first_tile_y_at_1920": 777
+      },
+      "idea_card_title": {
+        "size": 16,
+        "weight": 700,
+        "line_height": 22.4
+      },
+      "idea_card_meta": {
+        "size": 12,
+        "weight": 400,
+        "line_height": 18
+      },
+      "see_all_button": {
+        "h": 48,
+        "radius": 16,
+        "bg": "#e5e5e0",
+        "x_at_1920": 1449.3
+      }
+    }
+  },
+  "typography": {
+    "font_family": "\"Pin Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "web_fonts": [
+      "https://s.pinimg.com/webapp/Pin-Sans-MacOS-Regular-708c49dd.woff2",
+      "https://s.pinimg.com/webapp/Pin-Sans-MacOS-Medium-704a4f34.woff2",
+      "https://s.pinimg.com/webapp/Pin-Sans-MacOS-Bold-ce475d98.woff2",
+      "https://s.pinimg.com/webapp/Pin-Sans-MacOS-Heavy-2b6abf8c.woff2"
+    ],
+    "available_on_machine": {
+      "preferred": "Liberation Sans (closer to Pin Sans/Arial metrics)",
+      "fallback": "DejaVu Sans"
+    },
+    "sizes": {
+      "body_default": {
+        "size": 12,
+        "weight": 400,
+        "line_height": 1.33
+      },
+      "header_nav_link": {
+        "size": 16,
+        "weight": 500,
+        "line_height": 1.2
+      },
+      "header_search_input": {
+        "size": 16,
+        "weight": 400,
+        "line_height": 1.2
+      },
+      "button_label": {
+        "size": 16,
+        "weight": 500,
+        "line_height": 1.2
+      },
+      "filter_chip": {
+        "size": 16,
+        "weight": 600,
+        "line_height": 1.2
+      },
+      "pin_title": {
+        "size": 16,
+        "weight": 700,
+        "line_height": 1.4,
+        "clamp_lines": 2,
+        "estimated_from_idea_cards": true
+      },
+      "idea_card_title": {
+        "size": 16,
+        "weight": 700,
+        "line_height": 1.4,
+        "measured": true
+      },
+      "hero_display": {
+        "size": 48,
+        "weight": 900,
+        "line_height": 1.1,
+        "letter_spacing": -0.5,
+        "measured": true
+      },
+      "section_header": {
+        "size": 36,
+        "weight": 900,
+        "line_height": 1.1,
+        "letter_spacing": -0.5,
+        "measured": true
+      },
+      "pin_description": {
+        "size": 16,
+        "weight": 400,
+        "line_height": 1.4
+      },
+      "closeup_title": {
+        "size": 28,
+        "weight": 700,
+        "line_height": 1.1,
+        "letter_spacing": -0.5,
+        "estimated": true
+      },
+      "meta_small": {
+        "size": 12,
+        "weight": 400,
+        "line_height": 1.5,
+        "measured": true
+      },
+      "meta_bold": {
+        "size": 14,
+        "weight": 600,
+        "line_height": 1.3
+      }
+    }
+  },
+  "sdl_guidance": {
+    "cheap": [
+      "solid rect fills (header, search pill, buttons, card placeholders)",
+      "SDL2_ttf text blits with 2 fonts (regular + bold)",
+      "rounded-rect clip: render to 16x16 corner masks or use 4 tiny corner alpha sprites; radius 16 for cards, 24 for pills",
+      "1-2px dividers (#efefef) as thin filled rects",
+      "dark scrim for detail view: SDL_SetRenderDrawBlendMode(SDL_BLENDMODE_BLEND) + fill rgba(0,0,0,0.6)",
+      "hover overlay: flat 25% black wash over image + solid red Save pill (no shadow needed)"
+    ],
+    "expensive_skip_or_fake": [
+      "backdrop blur / frosted glass -> flat scrim or solid color",
+      "box shadows -> skip; cards are flat with rounded corners",
+      "image crossfade/shimmer -> static #efefef placeholder rect",
+      "vector logo -> draw red circle mark + bold text 'Pinterest' (or omit wordmark, keep P)"
+    ],
+    "performance": [
+      "one SDL_Texture per loaded thumbnail, capped at 236px wide (max ~64MB cache)",
+      "lazy upload: only create textures for cards in/near the viewport, evict far-off ones",
+      "prefetch next page when scrollY > contentH - 2*viewportH",
+      "cache scaled textures at card width (221/267/234) to avoid per-frame scaling",
+      "target 60fps: batch fills, no per-pixel effects"
+    ]
+  }
+}

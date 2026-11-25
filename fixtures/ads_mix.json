@@ -1,0 +1,44 @@
+{
+  "_comment": "ad-block fixture: 2 organic pins + 1 promoted pin (search results shape)",
+  "captured": "2026-10-31T13:05:00Z",
+  "endpoint": "search",
+  "query": "fixture",
+  "page": 1,
+  "resource_response": {
+    "status": "success",
+    "bookmark": "FIXBM",
+    "endpoint_name": "v3_get_pins_handler",
+    "data": {
+      "results": [
+        {
+          "type": "pin",
+          "id": "org1",
+          "title": "Organic one",
+          "dominant_color": "#112233",
+          "images": {"236x": {"url": "https://i.pinimg.com/236x/aa/bb/cc/org1.jpg", "width": 236, "height": 300}},
+          "pinner": {"username": "organicuser"}
+        },
+        {
+          "type": "pin",
+          "id": "org2",
+          "title": "Organic two",
+          "dominant_color": "#223344",
+          "images": {"236x": {"url": "https://i.pinimg.com/236x/aa/bb/cc/org2.jpg", "width": 236, "height": 320}},
+          "pinner": {"username": "organicuser"}
+        },
+        {
+          "type": "pin",
+          "id": "ad1",
+          "title": "Promoted thing",
+          "is_promoted": true,
+          "promoted_is_removable": true,
+          "promoted_is_lead_ad": false,
+          "ad_match_reason": 1,
+          "dominant_color": "#334455",
+          "images": {"236x": {"url": "https://i.pinimg.com/236x/aa/bb/cc/ad1.jpg", "width": 236, "height": 340}},
+          "pinner": {"username": "brand"}
+        }
+      ]
+    }
+  }
+}

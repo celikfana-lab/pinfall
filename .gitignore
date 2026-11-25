@@ -1,0 +1,66 @@
+# ---- build artifacts -------------------------------------------------------
+pinfall
+/_build/
+build/
+tools/dump
+tools/membench
+obj/
+*.o
+*.d
+docs/*.html
+
+# ---- Android / Gradle ------------------------------------------------------
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/.cxx/
+android/local.properties
+android/third_party/build/
+android/third_party/downloads/
+android/third_party/prefix/
+android/third_party/src/
+.gradle/
+captures/
+*.apk
+*.aab
+*.keystore
+*.jks
+!android/app/**/debug.keystore
+
+# ---- generated / scratch ---------------------------------------------------
+*.bmp
+*.ppm
+snapshot*.png
+/tmp/
+
+# keep reference screenshots only
+!assets/ref/*.png
+!docs/screenshot-*.png
+
+# ---- python ----------------------------------------------------------------
+__pycache__/
+*.pyc
+
+# ---- local settings / editor / OS -----------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# ---- credentials (NEVER commit) --------------------------------------------
+# Pinterest session cookies: `cookie.txt` / `.session-cookies.txt` are real
+# account sessions. Never commit, never paste into an issue or screenshot.
+cookie.txt
+.session-cookies.txt
+*.cookies.txt
+session.txt
+oauth*.json
+
+# ---- personal account captures (NEVER publish) -----------------------------
+# Signed-in captures of the maintainer's own account: boards, avatar, inbox.
+assets/ref/native/profile-saved-dark-720x1640.png
+assets/ref/native/inbox-messages-dark-720x1640.png
+assets/ref/mobile/09-profile-saved.png
+assets/ref/private/

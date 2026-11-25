@@ -1,0 +1,96 @@
+{
+ "_comment": "trimmed real Pinterest guest response, parser fixture",
+ "captured": "2026-10-27T14:25:07Z",
+ "endpoint": "pin",
+ "query": null,
+ "page": null,
+ "resource_response": {
+  "bookmark": null,
+  "data": {
+   "results": [
+    {
+     "node_id": "UGluOjIxNjQ1NDMyNTgyNzI5NzUzNw==",
+     "board": {
+      "id": "216454394529777827",
+      "name": "Primary Bedroom Design",
+      "url": "/moreau_designs/primary-bedroom-design/",
+      "type": "board"
+     },
+     "grid_title": "",
+     "pinner": {
+      "id": "216454463248925031",
+      "username": "moreau_designs",
+      "full_name": "Moreau Designs",
+      "type": "user"
+     },
+     "domain": "etsy.com",
+     "type": "pin",
+     "link": "https://www.etsy.com/listing/627581739/triangles-dark-print-abstract-print?ref=listings_manager_grid",
+     "dominant_color": "#837a71",
+     "created_at": "Mon, 19 Aug 2019 01:11:33 +0000",
+     "id": "216454325827297537",
+     "alt_text": null,
+     "images": {
+      "60x60": {
+       "url": "https://i.pinimg.com/60x60/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 60,
+       "height": 60,
+       "dominant_color": null
+      },
+      "136x136": {
+       "url": "https://i.pinimg.com/136x136/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 136,
+       "height": 136,
+       "dominant_color": null
+      },
+      "170x": {
+       "url": "https://i.pinimg.com/236x/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 236,
+       "height": 295,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 236,
+       "height": 295,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 474,
+       "height": 592,
+       "dominant_color": null
+      },
+      "564x": {
+       "url": "https://i.pinimg.com/564x/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 564,
+       "height": 705,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 736,
+       "height": 920,
+       "dominant_color": null
+      },
+      "600x315": {
+       "url": "https://i.pinimg.com/600x315/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 600,
+       "height": 315,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/97/ca/e4/97cae476a4f80a99f9565bfc569f2e4d.jpg",
+       "width": 736,
+       "height": 920,
+       "dominant_color": null
+      }
+     },
+     "title": "",
+     "description": "Triangles Dark Print, Abstract Print, Printable Digital Download, Minimalist Print, Wall Art Print, Digital Print, Bedroom Art, Poster Art",
+     "image_signature": "97cae476a4f80a99f9565bfc569f2e4d"
+    }
+   ]
+  }
+ }
+}

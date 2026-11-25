@@ -1,0 +1,33 @@
+{
+  "_comment": "ad-block fixture: an organic pin carrying only aggregated_pin_data must never be filtered (aggregated_pin_data is NOT an ad signal)",
+  "captured": "2026-10-31T13:05:00Z",
+  "endpoint": "search",
+  "query": "fixture-aggregated",
+  "page": 1,
+  "resource_response": {
+    "status": "success",
+    "bookmark": "FIXBM2",
+    "endpoint_name": "v3_get_pins_handler",
+    "data": {
+      "results": [
+        {
+          "type": "pin",
+          "id": "agg1",
+          "title": "Organic with aggregated data",
+          "dominant_color": "#556677",
+          "aggregated_pin_data": {"id": "agg-1", "popularity_score": 5, "is_shop_the_look": false},
+          "images": {"236x": {"url": "https://i.pinimg.com/236x/aa/bb/cc/agg1.jpg", "width": 236, "height": 300}},
+          "pinner": {"username": "organicuser"}
+        },
+        {
+          "type": "pin",
+          "id": "org9",
+          "title": "Plain organic",
+          "dominant_color": "#667788",
+          "images": {"236x": {"url": "https://i.pinimg.com/236x/aa/bb/cc/org9.jpg", "width": 236, "height": 310}},
+          "pinner": {"username": "organicuser"}
+        }
+      ]
+    }
+  }
+}

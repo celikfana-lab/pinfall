@@ -1,0 +1,1400 @@
+{
+ "_comment": "trimmed real Pinterest guest response, parser fixture",
+ "captured": "2026-10-27T14:24:58Z",
+ "endpoint": "search",
+ "query": "minimalist bedroom",
+ "page": 2,
+ "resource_response": {
+  "bookmark": "Y2JVSG81V2sxcmNHRlpWM1J5VFVad1dHTXpaR3hpVmtZMldWVmFRMVV4U25Sa1JGcFhVbnBXTTFsdE1WZFNhemxXVm14S1YxSlVWbEZXYlhScllXc3hSMVZzV2xaaVJuQlBWRlZvVTJWV1pISlhhM1JYVm10V05sVldVbE5YUmxwR1kwVmtWVll6YUhwYVJWcFhaRVV4Vms1V1pGTldSVlY1Vm10YVlXRXhaSEpPVldScVVtMW9WbFpyVmt0VU1XeHpWMjFHYTFKc1NubFhhMlJIWVVaS2RHUjZTbGRpVkVWM1ZrY3hTMVl5U2tWVmJGWlhWbXR3TWxkV1VrSk9Wa3BYVm14c1lWSlVWbFJVVldoRFpWWlplR0ZJWkZWTmExcElXVEJvVTFVeFdrWmpSMFpYWVRKU1ZGcEZXbE5YUlRGV1kwVTFhVkl6YURSV2JGcFRWREZSZVZKdVVsVlhTRUpXVkZWYVMxWkdiRlpYYmtwc1ZtdHdWbFp0TVVkV01ERkZWbXBDVjFKc1duWlVhMXBTWlVaT2MxcEhSbE5TTWswMVdtdGFWMU5YU2paVmJYaFhWMGRvUmxkc1ZsZGhNV1J6VjFod2FGSkdjRmxaYTJSdVpXeHdWbFpVVmxOV2JWSldWa2R6TldKSFNsaFZWRUpYVWtWS1ZGVlhjM2RrTURWWFZtMUdiR0pGY0ZCV1YzUmhWbTFXYzFSWWJHdFNNMUpYV1d0YVMxSldhM2RWYlRsVllrVnNNMWxZY0VOV1ZsbzJVbXQwVldFeFZqUlZiRnBoVmxaV2RGSnRhR2xXYTNBelZtdFNSMkV4V25SV2JrcFBWbXhhVlZsc2FHOVZSbEpZWlVWYWJGWnNSak5XVjNoaFZHMUdObEp1YUZoV1JUVjZWMVphWVZJeFduRlhiR2hYWWtWd2VWZFdWbFpsUlRWelkwUmFWMkY2Vm5CV2JHUXdUVEZhU0UxSWFGVmlWbHA2V1d0YWIxZEhTbFZTYkVaWFlUSlNWRmw2Um10amJIQkdaRWRvYVZORlNsZFdWbHBUVmpGc1dGSnVUbGRXUlVwWlZtNXdSMVl4Y0ZaV1ZFWnJVbXhLTUZsVlduZGhWMHAwWVVaR1YxWXphR2haVkVFMVVXeENWVTFVYUU1V1IyTjVWRzV3YWs1Rk1WVmFNMlJQWld4Vk1GUXdVa0pOVlRVMVkwVm9WbFpZWkhoYWExSldUVEZ3Y1ZsNlVrNU5hM0J6VjJ0a1YyRnNiSFJWVkZaaFlsVXdlVlF4VWxaTlJUVnhVbFJXWVZKRk5YSlhXSEJ5WlZVNVJWWlVVbUZXUlRWdlYxZHdibVZHYTNsVWJXaE9ZbFZ3YjFSVVNsZGlWbkJZVkZoa1lXSlZWWGxVVlZKU1pXeHNObFpZY0U5V1JrWTFWREJrVTA5R1VuSldiR2h0VVZRd09XWkVSVFJPYW1NelQwUkZORTFFWXpGUFJHZDNUbFJqY1ZJeFJrMUxibmQ2V2xkUmVGcHFSWGhOVkZGNFdtcFZORTlVWXpSWmVrcHNXbFJOTVU5SFZYcE9hazVzVGxkV2JGcHRUbWhhVkVacFRsZEplRTU2WXpWWlYxbDNUbFJDYWs1VVdYZE5SR3N3VG5wQ2JVMVhVVEZPVkZFMFprVTFSbFl6ZHowPXxVSG81ZW1OWFZqVmlNV2hYWW0xU2VtRjZNV1pOZWs1bVRGUkdPRTFVWnpKT2VtTTBUVlJuZDA1NlZUUlBSRUV4VG5sd1NGVlZkM0ZtUkdjMFdtMVdiVTlVVlRKYWJWVTFXV3BvYTA5VVZteFBSMUV5V2xSbmVGbDZTVEZaYW1zeFQwUmtiRTVIVlhsT2FtZDNUVEpWZDA0eVVYZFBSMDE2VFdwUk1FOVhXbTFaVkd4b1RYcEZkMDVFV21wT1ZFWTRWR3RXV0daQlBUMD18Tm9uZXwxODY3NzgxODA3NTg4MDU3KkdRTCp8Yzk2NjU4YWQ0MTJjYzgzOTdkODViY2NlZWViNzIxYWQzYmQ5YzM4NzIxNTI0OGRkODY3ZDljZmEwZTJkZjk4NXxORVd8",
+  "data": {
+   "results": [
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHoxVDNYMXhBanNuT25pUndzSE56cU93ZndXZXNfamdlOHlydWZIajBTMWtrUG1uUQ==",
+     "created_at": "Sun, 11 Oct 2026 20:39:35 +0000",
+     "pinner": {
+      "id": "1130262975140433602",
+      "username": "bailee_towne780",
+      "full_name": "Bailee Towne"
+     },
+     "board": {
+      "id": "1130262906422448636",
+      "name": "Minimalist bedroom",
+      "url": "/bailee_towne780/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#a59a89",
+     "title": "Cozy Autumn Decor Ideas for Small Spaces",
+     "description": "Transform your nook with warm textures, soft lighting, and space-saving accents. Quick, affordable decor tips to create a stylish, inviting fall-inspired sanctuary in any compact area",
+     "image_signature": "5486c85edc937f6a3fdd60c63d0580b4",
+     "grid_title": "Cozy Autumn Decor Ideas for Small Spaces",
+     "id": "e1_AfqPShz1T3X1xAjsnOniRwsHNzqOwfwWes_jge8yrufHj0S1kkPmnQ",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/54/86/c8/5486c85edc937f6a3fdd60c63d0580b4.jpg",
+       "width": 236,
+       "height": 419,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/54/86/c8/5486c85edc937f6a3fdd60c63d0580b4.jpg",
+       "width": 236,
+       "height": 419,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/54/86/c8/5486c85edc937f6a3fdd60c63d0580b4.jpg",
+       "width": 474,
+       "height": 842,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/54/86/c8/5486c85edc937f6a3fdd60c63d0580b4.jpg",
+       "width": 736,
+       "height": 1308,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/54/86/c8/5486c85edc937f6a3fdd60c63d0580b4.jpg",
+       "width": 1080,
+       "height": 1920,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHduMXNjTGZxNzVJRm13SGl5WWo3NWwxVmc4b0QtLVFUNFpuOTRLQnlZTmhrdTQ=",
+     "created_at": "Thu, 15 Oct 2026 17:33:48 +0000",
+     "pinner": {
+      "id": "577938702089871871",
+      "username": "leniemilia14",
+      "full_name": "leni.emilia"
+     },
+     "board": {
+      "id": "577938633372027843",
+      "name": "Schlafzimmer Inspiration | Bedroom",
+      "url": "/leniemilia14/schlafzimmer-inspiration-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#71593f",
+     "title": "Schlafzimmer Inspiration | Gem\u00fctlicher Japandi Stil",
+     "description": "Ideen f\u00fcr ein ruhiges und \u00e4sthetisches Schlafzimmer. Der minimalistische Japandi-Stil kombiniert skandinavische Gem\u00fctlichkeit mit japanischer Schlichtheit. Finde Inspirationen f\u00fcr Leinentextilien, Naturfarben und moderne Deko. #schlafzimmerdeko #japandi #leinenbettw\u00e4sche #interiorinspo",
+     "image_signature": "42bd72fe92f64d7320e8799c0f819335",
+     "grid_title": "Schlafzimmer Inspiration | Gem\u00fctlicher Japandi Stil",
+     "id": "e1_AfqPShwn1scLfq75IFmwHiyYj75l1Vg8oD--QT4Zn94KByYNhku4",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/42/bd/72/42bd72fe92f64d7320e8799c0f819335.jpg",
+       "width": 236,
+       "height": 315,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/42/bd/72/42bd72fe92f64d7320e8799c0f819335.jpg",
+       "width": 236,
+       "height": 315,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/42/bd/72/42bd72fe92f64d7320e8799c0f819335.jpg",
+       "width": 474,
+       "height": 634,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/42/bd/72/42bd72fe92f64d7320e8799c0f819335.jpg",
+       "width": 736,
+       "height": 984,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/42/bd/72/42bd72fe92f64d7320e8799c0f819335.jpg",
+       "width": 1088,
+       "height": 1456,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlnYlBlbUFtVVNiMW1jeEdId0w0bEhld3NGUW1xcXF1Qk9oVTNhTk9PLUNVM0JxUQ==",
+     "created_at": "Sat, 10 Oct 2026 01:03:08 +0000",
+     "pinner": {
+      "id": "1079175266867320259",
+      "username": "katrina_purdy797",
+      "full_name": "Katrina Purdy"
+     },
+     "board": {
+      "id": "1079175198148748564",
+      "name": "Minimalist bedroom",
+      "url": "/katrina_purdy797/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#bfbcb6",
+     "title": "Clean Minimalist Bedroom Ideas for Small Spaces",
+     "description": "Transform tiny apartments with Japandi-inspired white decor, clutter-free walls, and a serene, airy vibe. Discover simple, chic tips for a spacious-feeling minimalist bedroom you\u2019ll love",
+     "image_signature": "484410356371c27b981366410956de87",
+     "grid_title": "Clean Minimalist Bedroom Ideas for Small Spaces",
+     "id": "e1_AfqPShygbPemAmUSb1mcxGHwL4lHewsFQmqqquBOhU3aNOO-CU3BqQ",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/48/44/10/484410356371c27b981366410956de87.jpg",
+       "width": 236,
+       "height": 421,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/48/44/10/484410356371c27b981366410956de87.jpg",
+       "width": 236,
+       "height": 421,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/48/44/10/484410356371c27b981366410956de87.jpg",
+       "width": 474,
+       "height": 846,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/48/44/10/484410356371c27b981366410956de87.jpg",
+       "width": 736,
+       "height": 1313,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/48/44/10/484410356371c27b981366410956de87.jpg",
+       "width": 897,
+       "height": 1601,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlvUUdKa25RbDdvSm05T3RjbGRUMDNiWksxMXEyQ3JaWGxHcnF3OUJPZFZCSGVWQQ==",
+     "created_at": "Thu, 15 Oct 2026 04:03:27 +0000",
+     "pinner": {
+      "id": "1094867496819334024",
+      "username": "carolcn111",
+      "full_name": "Huayi Moulding"
+     },
+     "link": "http://www.huayimoulding.com/",
+     "board": {
+      "id": "1094867428102031759",
+      "name": "Baseboard Ideas",
+      "url": "/carolcn111/baseboard-ideas/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "huayimoulding.com",
+     "dominant_color": "#b19e8f",
+     "title": "Scandinavian Bedroom Skirting Board | Solid Wood Baseboard with Warm Brass Details",
+     "description": "Warm minimalism, finished at the floor line. In this calm bedroom, a clay-finish solid wood skirting board sits one shade deeper than the plaster walls, tracing a fine, deliberate line around the room. Matte and non-reflective, it keeps the look quiet while brass globe sconces and light oak furniture add warmth. Soft linen bedding, an olive tree, a cream wool rug. Save this for warm minimalist bedroom ideas, trim details and neutral interior inspiration.",
+     "image_signature": "6c51bd55dfc05f49342b1a5c9ff3a8f5",
+     "grid_title": "Scandinavian Bedroom Skirting Board | Solid Wood Baseboard with Warm Brass Details",
+     "id": "e1_AfqPShyoQGJknQl7oJm9OtcldT03bZK11q2CrZXlGrqw9BOdVBHeVA",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/6c/51/bd/6c51bd55dfc05f49342b1a5c9ff3a8f5.jpg",
+       "width": 236,
+       "height": 334,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/6c/51/bd/6c51bd55dfc05f49342b1a5c9ff3a8f5.jpg",
+       "width": 236,
+       "height": 334,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/6c/51/bd/6c51bd55dfc05f49342b1a5c9ff3a8f5.jpg",
+       "width": 474,
+       "height": 672,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/6c/51/bd/6c51bd55dfc05f49342b1a5c9ff3a8f5.jpg",
+       "width": 736,
+       "height": 1043,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/6c/51/bd/6c51bd55dfc05f49342b1a5c9ff3a8f5.png",
+       "width": 1248,
+       "height": 1770,
+       "dominant_color": null
+      }
+     },
+     "alt_text": "Warm minimalist bedroom with plaster walls, a light oak bed and brass globe sconces, finished with a clay-finish solid wood skirting board set one shade deeper than the walls."
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlrRXp5LTl2ZnRzZzk4b2k5QjUtUXFBdmEybWNNU0FWTE40amxJT3RadlE1UUs=",
+     "created_at": "Wed, 14 Oct 2026 11:44:37 +0000",
+     "pinner": {
+      "id": "667025532218710070",
+      "username": "PremiumBagStore",
+      "full_name": "Premium Bag Store"
+     },
+     "link": "https://link.amazon/B08PLSgua",
+     "board": {
+      "id": "667025463500885411",
+      "name": "Cozy Rooms",
+      "url": "/PremiumBagStore/cozy-rooms/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "link.amazon",
+     "dominant_color": "#b5aea1",
+     "title": "Shop 85% Off Daily \ud83d\udc47\ud83d\udc47                    11 IKEA Bedroom Ideas, Cozy Room Decor and Makeov",
+     "description": "Explore 11 IKEA Bedroom Ideas, Cozy Room Decor and Calming Neutral Color Palettes Beautiful Room Design for fresh home decor inspiration in American homes. Discover practical interior design ideas, beautiful room styling, cozy details, and approachable ways to refresh your space. Use these home decorating ideas to create a welcoming living room, restful bedroom, organized kitchen, or polished entryway that reflects your style. Find inspiration for modern home decor, timeless accents, thoughtf...",
+     "image_signature": "96a2a2ff20453404bc759592133c5cd7",
+     "grid_title": "Shop 85% Off Daily \ud83d\udc47\ud83d\udc47                    11 IKEA Bedroom Ideas, Cozy Room Decor and Makeov",
+     "id": "e1_AfqPShykEzy-9vftsg98oi9B5-QqAva2mcMSAVLN4jlIOtZvQ5QK",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/96/a2/a2/96a2a2ff20453404bc759592133c5cd7.jpg",
+       "width": 236,
+       "height": 419,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/96/a2/a2/96a2a2ff20453404bc759592133c5cd7.jpg",
+       "width": 236,
+       "height": 419,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/96/a2/a2/96a2a2ff20453404bc759592133c5cd7.jpg",
+       "width": 474,
+       "height": 842,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/96/a2/a2/96a2a2ff20453404bc759592133c5cd7.jpg",
+       "width": 736,
+       "height": 1308,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/96/a2/a2/96a2a2ff20453404bc759592133c5cd7.jpg",
+       "width": 1080,
+       "height": 1920,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHplWDBPMWJaeWxWbm9nVzNHR20zXzcyMjFoSktISlBhaWoxNk5QZ0VXT0pKZkxQQQ==",
+     "created_at": "Mon, 12 Oct 2026 22:14:52 +0000",
+     "pinner": {
+      "id": "1114078163979663868",
+      "username": "lizziedavis936",
+      "full_name": "Lizzie Davis"
+     },
+     "board": {
+      "id": "1114078095261968859",
+      "name": "Minimalist bedroom",
+      "url": "/lizziedavis936/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#a07f64",
+     "title": "Cozy Bedroom with Rugs and Twin Bedside Lamps",
+     "description": "Discover a chic, inviting bedroom setup featuring a comfy bed, stylish rugs, and balanced lighting from twin bedside lamps. Perfect for relaxing vibes and spa-like mornings. Pin for serene decor inspiration and budget-friendly styling tips",
+     "image_signature": "32669391dacdb77ae27f28ca10f52b36",
+     "grid_title": "Cozy Bedroom with Rugs and Twin Bedside Lamps",
+     "id": "e1_AfqPShzeX0O1bZylVnogW3GGm3_7221hJKHJPaij16NPgEWOJJfLPA",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/32/66/93/32669391dacdb77ae27f28ca10f52b36.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/32/66/93/32669391dacdb77ae27f28ca10f52b36.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/32/66/93/32669391dacdb77ae27f28ca10f52b36.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/32/66/93/32669391dacdb77ae27f28ca10f52b36.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/32/66/93/32669391dacdb77ae27f28ca10f52b36.png",
+       "width": 1024,
+       "height": 1536,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHpkTkJjaS0xSXYwajNDeTdSbXdNVS1nYnVOLTdRY2szZG5aeDBmSC1qVXM2QW4zdw==",
+     "created_at": "Sat, 03 Oct 2026 10:10:14 +0000",
+     "pinner": {
+      "id": "1112178207886841964",
+      "username": "softresetstudiolab",
+      "full_name": "Soft Reset Studio"
+     },
+     "board": {
+      "id": "1112178139169495654",
+      "name": "Japandi Scandinavian Bedroom Designs",
+      "url": "/softresetstudiolab/japandi-scandinavian-bedroom-designs/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#9c8061",
+     "title": "Scandinavian Bedroom Ideas | Cozy Minimalist Bedroom",
+     "description": "Create a cozy Scandinavian bedroom with warm neutral tones, natural wood, soft linen bedding, textured rugs and minimalist decor. This serene Nordic bedroom combines modern simplicity with a warm, inviting atmosphere for a timeless interior.",
+     "image_signature": "998f23dd27239a28486ab05f7867ac22",
+     "grid_title": "Scandinavian Bedroom Ideas | Cozy Minimalist Bedroom",
+     "id": "e1_AfqPShzdNBci-1Iv0j3Cy7RmwMU-gbuN-7Qck3dnZx0fH-jUs6An3w",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/99/8f/23/998f23dd27239a28486ab05f7867ac22.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/99/8f/23/998f23dd27239a28486ab05f7867ac22.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/99/8f/23/998f23dd27239a28486ab05f7867ac22.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/99/8f/23/998f23dd27239a28486ab05f7867ac22.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/99/8f/23/998f23dd27239a28486ab05f7867ac22.png",
+       "width": 1024,
+       "height": 1536,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHk3a0hpT3FLYW1GcTFRODhRVWxXa1dSTWp4SVlpeERraG9yLW91N1J0RW5Jckc=",
+     "created_at": "Sun, 11 Oct 2026 17:05:44 +0000",
+     "pinner": {
+      "id": "917397524002939163",
+      "username": "HSandKD",
+      "full_name": "Home Shine & Kitchen Dine"
+     },
+     "board": {
+      "id": "917397455285102033",
+      "name": "Boho Living Room Ideas",
+      "url": "/HSandKD/boho-living-room-ideas/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#b9ac9a",
+     "title": "Minimalist Bedroom",
+     "description": "Dreaming of a cozy minimalist bedroom? Discover warm neutral bedroom inspiration with soft linen bedding, natural wood furniture, layered textures, gentle lighting, and simple decor. These calming bedroom ideas show how to create a peaceful, uncluttered space that still feels warm and inviting. Save this pin for your next bedroom refresh and explore more cozy home decor inspiration.\n\n#CozyBedroom #MinimalistBedroom #BedroomDecor #NeutralBedroom #CozyHome #BedroomInspiration #MinimalistHome #HomeDecorIdeas",
+     "image_signature": "bf19ff950dca9ccb0fd72ea0b532ce5b",
+     "grid_title": "Minimalist Bedroom",
+     "id": "e1_AfqPShy7kHiOqKamFq1Q88QUlWkWRMjxIYixDkhor-ou7RtEnIrG",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/bf/19/ff/bf19ff950dca9ccb0fd72ea0b532ce5b.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/bf/19/ff/bf19ff950dca9ccb0fd72ea0b532ce5b.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/bf/19/ff/bf19ff950dca9ccb0fd72ea0b532ce5b.jpg",
+       "width": 474,
+       "height": 849,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/bf/19/ff/bf19ff950dca9ccb0fd72ea0b532ce5b.jpg",
+       "width": 736,
+       "height": 1318,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/bf/19/ff/bf19ff950dca9ccb0fd72ea0b532ce5b.jpg",
+       "width": 1536,
+       "height": 2752,
+       "dominant_color": null
+      }
+     },
+     "alt_text": "A cozy minimalist bedroom with ivory linen bedding, a chunky beige throw, a light oak nightstand, a ceramic lamp, a leafy indoor tree, and warm sunlight through sheer curtains."
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlZVVNLV3FyT3hId194UVlnUXB5cjdoS3BuTG1od09NX2hrSkVPZFB1ZkFVZnFVQQ==",
+     "created_at": "Sat, 10 Oct 2026 21:45:40 +0000",
+     "pinner": {
+      "id": "1137229480814050188",
+      "username": "celestine_roob87",
+      "full_name": "Celestine Roob"
+     },
+     "board": {
+      "id": "1137229412096198105",
+      "name": "Minimalist bedroom",
+      "url": "/celestine_roob87/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#b29f82",
+     "title": "Dreamy Bed Setup by Sunlit Window",
+     "description": "Create a serene bedroom oasis with a spacious bed beside airy sheer curtains. This cozy, light-filled retreat blends comfort and style, perfect for restful vibes and chic d\u00e9cor inspiration",
+     "image_signature": "2a071269552478f8f3fd0cf3a90d465b",
+     "grid_title": "Dreamy Bed Setup by Sunlit Window",
+     "id": "e1_AfqPShyYUSKWqrOxHw_xQYgQpyr7hKpnLmhwOM_hkJEOdPufAUfqUA",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/2a/07/12/2a071269552478f8f3fd0cf3a90d465b.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/2a/07/12/2a071269552478f8f3fd0cf3a90d465b.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/2a/07/12/2a071269552478f8f3fd0cf3a90d465b.jpg",
+       "width": 474,
+       "height": 849,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/2a/07/12/2a071269552478f8f3fd0cf3a90d465b.jpg",
+       "width": 736,
+       "height": 1318,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/2a/07/12/2a071269552478f8f3fd0cf3a90d465b.png",
+       "width": 768,
+       "height": 1376,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHd4VVI4YzdjaHpwRXJ5elhZUTNTSjY2NFI5VzdaMVBmZVc1MExtQl94bXFBNFdqdw==",
+     "created_at": "Sun, 02 Aug 2026 00:09:53 +0000",
+     "pinner": {
+      "id": "1126463062954910601",
+      "username": "desksetupdailyofficial",
+      "full_name": "Desk Setup Daily | Home Decor"
+     },
+     "board": {
+      "id": "1126462994237117596",
+      "name": "Pins by you",
+      "url": "/desksetupdailyofficial/_quick_creates/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#cbbcae",
+     "title": "Minimalist White Bedroom with Oak Details \ud83e\udd0d | Scandinavian Bedroom Inspiration",
+     "description": "Create a calm and timeless bedroom with a minimalist white palette, natural oak furniture, cozy linen textures, and Scandinavian-inspired design. This bright, airy bedroom blends simplicity, warmth, and functionality, making it perfect for modern homes, apartments, and minimalist interiors. Save this elegant bedroom inspiration for your next home makeover. \n#ScandinavianBedroom #MinimalistBedroom #WhiteBedroom #OakFurniture #BedroomDesign #BedroomAesthetic #CozyBedroom #NeutralDecor #ScandinavianStyle #ModernBedroom #InteriorDesign #HomeDecor #MinimalistHome #BedroomInspiration #WarmMinimalism #DreamBedroom #RoomDecor #HomeInspiration #PinterestHome #InteriorStyling",
+     "image_signature": "8a581982bd46eacfda45595c142164a3",
+     "grid_title": "Minimalist White Bedroom with Oak Details \ud83e\udd0d | Scandinavian Bedroom Inspiration",
+     "id": "e1_AfqPShwxUR8c7chzpEryzXYQ3SJ664R9W7Z1PfeW50LmB_xmqA4Wjw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/8a/58/19/8a581982bd46eacfda45595c142164a3.jpg",
+       "width": 236,
+       "height": 294,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/8a/58/19/8a581982bd46eacfda45595c142164a3.jpg",
+       "width": 236,
+       "height": 294,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/8a/58/19/8a581982bd46eacfda45595c142164a3.jpg",
+       "width": 474,
+       "height": 592,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/8a/58/19/8a581982bd46eacfda45595c142164a3.jpg",
+       "width": 736,
+       "height": 919,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/8a/58/19/8a581982bd46eacfda45595c142164a3.png",
+       "width": 1122,
+       "height": 1402,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHhEQWZIS1V5R1VFLTJQNnk2SEJQSFVudlBDSW9qZFZpQ1RDVEJ3aE9wdzNVX1N1UQ==",
+     "created_at": "Sat, 10 Oct 2026 08:04:51 +0000",
+     "pinner": {
+      "id": "1028580139803585861",
+      "username": "AbetumHomeDecor",
+      "full_name": "Dimitry Abetum | Interior Designer | Home Decor"
+     },
+     "board": {
+      "id": "1028580071085541504",
+      "name": "Bedroom Decor",
+      "url": "/AbetumHomeDecor/bedroom-decor/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#846e56",
+     "title": "Japandi Bedroom Decor Ideas for a Calm, Minimal Retreat",
+     "description": "Affiliate links: I may earn a commission from qualifying purchases, at no extra \ncost to you. Create a calmer bedroom with Japandi d\u00e9cor: natural wood, relaxed linen \nbedding, warm neutrals and simple sculptural details. Save this minimalist bedroom \ninspiration for a serene, restful bedroom refresh.",
+     "image_signature": "9b0c92ffc7142b6a5c6f5561a51646c1",
+     "grid_title": "Japandi Bedroom Decor Ideas for a Calm, Minimal Retreat",
+     "id": "e1_AfqPShxDAfHKUyGUE-2P6y6HBPHUnvPCIojdViCTCTBwhOpw3U_SuQ",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/9b/0c/92/9b0c92ffc7142b6a5c6f5561a51646c1.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/9b/0c/92/9b0c92ffc7142b6a5c6f5561a51646c1.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/9b/0c/92/9b0c92ffc7142b6a5c6f5561a51646c1.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/9b/0c/92/9b0c92ffc7142b6a5c6f5561a51646c1.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/9b/0c/92/9b0c92ffc7142b6a5c6f5561a51646c1.png",
+       "width": 1536,
+       "height": 2304,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlLVnpJZVdGYXVfYWl0c09hV2lJenYxaERLTThlYnFtbi1GUHF0SnhBUkJKbGo0dw==",
+     "created_at": "Thu, 15 Oct 2026 15:02:02 +0000",
+     "pinner": {
+      "id": "1113444845282108884",
+      "username": "nestivohq",
+      "full_name": "Nestivo"
+     },
+     "board": {
+      "id": "1113444776564506207",
+      "name": "Home Interior Ideas",
+      "url": "/nestivohq/home-interior-ideas/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#7b674a",
+     "title": "Japandi Bedroom Ideas with a Private Courtyard | Neutral Decor & Greenery",
+     "description": "Bring natural textures and garden views into a calm Japandi bedroom. This space pairs a low pale-wood platform bed with ivory bedding, olive cushions and a textured throw. Floor-to-ceiling glass frames a private courtyard filled with bamboo, ferns, gravel and stepping stones.\n\nWarm plaster walls, a woven rug and a softly glowing pendant complement the simple furniture. A sculptural indoor tree in a charcoal pot connects the bedroom\u2019s earthy palette with the greenery outside, while uncluttered surfaces keep attention on the courtyard.\n\nSave this pin for Japandi bedroom inspiration, minimalist bedroom decor, small courtyard garden ideas and neutral interiors with greenery.",
+     "image_signature": "a480054918b1010f80f6ff9dad77920c",
+     "grid_title": "Japandi Bedroom Ideas with a Private Courtyard | Neutral Decor & Greenery",
+     "id": "e1_AfqPShyKVzIeWFau_aitsOaWiIzv1hDKM8ebqmn-FPqtJxARBJlj4w",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/a4/80/05/a480054918b1010f80f6ff9dad77920c.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/a4/80/05/a480054918b1010f80f6ff9dad77920c.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/a4/80/05/a480054918b1010f80f6ff9dad77920c.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/a4/80/05/a480054918b1010f80f6ff9dad77920c.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/a4/80/05/a480054918b1010f80f6ff9dad77920c.png",
+       "width": 1024,
+       "height": 1536,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHo3bnl1a081RzRFZENMZkhKNlNUb1BNWWMtTHNkd3phVnFfY2tGZE9uSEVlYkI5UQ==",
+     "created_at": "Wed, 14 Oct 2026 04:06:35 +0000",
+     "pinner": {
+      "id": "1078682685657924272",
+      "username": "sixberhomedecor",
+      "full_name": "sixberhomedecor"
+     },
+     "link": "https://sixberliving.com/make-bedroom-look-expensive-on-a-budget/",
+     "board": {
+      "id": "1078682616938600294",
+      "name": "Bedroom Decor Ideas",
+      "url": "/sixberhomedecor/bedroom-decor-ideas/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "sixberliving.com",
+     "dominant_color": "#c7c0b2",
+     "title": "",
+     "description": "17 Ways to Make Your Bedroom Look Expensive on a Budget - Sixber Living",
+     "image_signature": "12396e6053e082534fa37af772b335c1",
+     "grid_title": "17 Ways to Make Your Bedroom Look Expensive on a Budget",
+     "id": "e1_AfqPShz7nyukO5G4EdCLfHJ6SToPMYc-LsdwzaVq_ckFdOnHEebB9Q",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/12/39/6e/12396e6053e082534fa37af772b335c1.jpg",
+       "width": 236,
+       "height": 423,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/12/39/6e/12396e6053e082534fa37af772b335c1.jpg",
+       "width": 236,
+       "height": 423,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/12/39/6e/12396e6053e082534fa37af772b335c1.jpg",
+       "width": 474,
+       "height": 851,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/12/39/6e/12396e6053e082534fa37af772b335c1.jpg",
+       "width": 736,
+       "height": 1322,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/12/39/6e/12396e6053e082534fa37af772b335c1.jpg",
+       "width": 766,
+       "height": 1376,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHhtVWs3VF81SmVkLW94amM5QkNvTjZQaTVrSEdrc1hlQ3NwNVpkVl9QUEVLUXdNdw==",
+     "created_at": "Sun, 11 Oct 2026 22:39:06 +0000",
+     "pinner": {
+      "id": "1138073905744037071",
+      "username": "Zaynaberberugs",
+      "full_name": "Zaynaberberugs"
+     },
+     "board": {
+      "id": "1138073837027012533",
+      "name": "Bedroom Inspiration",
+      "url": "/Zaynaberberugs/bedroom-inspiration/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#bfb5a6",
+     "title": "Minimalist bedroom with a low oak platform bed!",
+     "description": " ",
+     "image_signature": "5d41dddc1a797770e3a14c2a1220cbc6",
+     "grid_title": "Minimalist bedroom with a low oak platform bed!",
+     "id": "e1_AfqPShxmUk7T_5Jed-oxjc9BCoN6Pi5kHGksXeCsp5ZdV_PPEKQwMw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/5d/41/dd/5d41dddc1a797770e3a14c2a1220cbc6.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/5d/41/dd/5d41dddc1a797770e3a14c2a1220cbc6.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/5d/41/dd/5d41dddc1a797770e3a14c2a1220cbc6.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/5d/41/dd/5d41dddc1a797770e3a14c2a1220cbc6.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/5d/41/dd/5d41dddc1a797770e3a14c2a1220cbc6.jpg",
+       "width": 1000,
+       "height": 1500,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHppVlVRYmJoQWh3ZFZ1LV83R2V3ZFV3c2tmTmxhQkZpa09yZXZfMDd0Z2dYXzc=",
+     "created_at": "Thu, 15 Oct 2026 10:04:07 +0000",
+     "pinner": {
+      "id": "913667980561361492",
+      "username": "estikaeu",
+      "full_name": "Estika"
+     },
+     "link": "https://estika.de/shop/plisse?lang=en&utm_source=pinterest&utm_medium=social&utm_campaign=cozy_autumn_2026&utm_content=2026-10-15_1",
+     "board": {
+      "id": "913667911843647935",
+      "name": "Estika Interior Inspirations",
+      "url": "/estikaeu/estika-interior-inspirations/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "estika.de",
+     "dominant_color": "#ab9b87",
+     "title": "Bedroom with grey top-down pleated blinds",
+     "description": "Grey pleated blinds lowered from the top, linen bedding and a wood-slat wall. Pleated blinds that move both ways let you choose which part of the window to cover, useful in a bedroom on a lower floor.",
+     "image_signature": "6133207d344a81a18b5a53e054513e3d",
+     "grid_title": "Bedroom with grey top-down pleated blinds",
+     "id": "e1_AfqPShziVUQbbhAhwdVu-_7GewdUwskfNlaBFikOrev_07tggX_7",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/61/33/20/6133207d344a81a18b5a53e054513e3d.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/61/33/20/6133207d344a81a18b5a53e054513e3d.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/61/33/20/6133207d344a81a18b5a53e054513e3d.jpg",
+       "width": 474,
+       "height": 849,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/61/33/20/6133207d344a81a18b5a53e054513e3d.jpg",
+       "width": 736,
+       "height": 1318,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/61/33/20/6133207d344a81a18b5a53e054513e3d.png",
+       "width": 768,
+       "height": 1376,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHhXSkU4RGY5OERZMkdlS0VGcDQyc2ZlTVhlUWYzVTNta2pKYkNVa2VWUVktUzk=",
+     "created_at": "Tue, 13 Oct 2026 02:31:06 +0000",
+     "pinner": {
+      "id": "917397524002939163",
+      "username": "HSandKD",
+      "full_name": "Home Shine & Kitchen Dine"
+     },
+     "board": {
+      "id": "917397455285101520",
+      "name": "Cozy Bedroom Ideas",
+      "url": "/HSandKD/cozy-bedroom-ideas/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#b29d84",
+     "title": "Small Bedroom Ideas for a Cozy Minimalist Look",
+     "description": "Make the most of a small bedroom with cozy minimalist decor, compact furniture, simple storage, soft neutral bedding, and warm natural textures. These small bedroom ideas show how to create a calm, functional space without overcrowding the room. Get inspiration for apartment bedrooms, small spaces, and simple bedroom makeovers. Save this pin to plan your future bedroom refresh.\n#SmallBedroomIdeas #SmallBedroomDecor #SmallSpaceLiving #MinimalistBedroom #BedroomInspiration #ApartmentDecor #SpaceSavingIdeas #CozyBedroom",
+     "image_signature": "bca0e159e683bd521bdf78e61b45c4bc",
+     "grid_title": "Small Bedroom Ideas for a Cozy Minimalist Look",
+     "id": "e1_AfqPShxWJE8Df98DY2GeKEFp42sfeMXeQf3U3mkjJbCUkeVQY-S9",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/bc/a0/e1/bca0e159e683bd521bdf78e61b45c4bc.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/bc/a0/e1/bca0e159e683bd521bdf78e61b45c4bc.jpg",
+       "width": 236,
+       "height": 422,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/bc/a0/e1/bca0e159e683bd521bdf78e61b45c4bc.jpg",
+       "width": 474,
+       "height": 849,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/bc/a0/e1/bca0e159e683bd521bdf78e61b45c4bc.jpg",
+       "width": 736,
+       "height": 1318,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/bc/a0/e1/bca0e159e683bd521bdf78e61b45c4bc.jpg",
+       "width": 1536,
+       "height": 2752,
+       "dominant_color": null
+      }
+     },
+     "alt_text": "A small minimalist bedroom with a low oak bed, cream linen bedding, an olive throw, compact desk by a sunny window, built-in storage, and a round woven rug."
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHdoM0pVbnRXeWh3Q0w3dWhOTUl0ZWlUZlRBTWY2SXdySTY4dU01WldnLTAxdzg=",
+     "created_at": "Thu, 15 Oct 2026 17:03:28 +0000",
+     "pinner": {
+      "id": "900438656655993062",
+      "username": "plushparadisedecor",
+      "full_name": "Home Improvement"
+     },
+     "link": "https://homeimprovement.lovestoblog.com/modern-minimalist-bedroom-ideas/",
+     "board": {
+      "id": "900438587937417276",
+      "name": "Bedroom Decor Ideas",
+      "url": "/plushparadisedecor/bedroom-decor-ideas/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "homeimprovement.lovestoblog.com",
+     "dominant_color": "#7c614e",
+     "title": "Minimalist Bedroom Lighting Ideas: The 3-Layer Plan",
+     "description": "Minimalist bedroom lighting ideas for a softer room at night: ambient, task and accent light with warm 2700K-3000K bulbs. See bedside ideas and the full guide.",
+     "image_signature": "886300334ed58d6539e619078790b815",
+     "grid_title": "Minimalist Bedroom Lighting Ideas: The 3-Layer Plan",
+     "id": "e1_AfqPShwh3JUntWyhwCL7uhNMIteiTfTAMf6IwrI68uM5ZWg-01w8",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/88/63/00/886300334ed58d6539e619078790b815.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/88/63/00/886300334ed58d6539e619078790b815.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/88/63/00/886300334ed58d6539e619078790b815.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/88/63/00/886300334ed58d6539e619078790b815.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/88/63/00/886300334ed58d6539e619078790b815.jpg",
+       "width": 1280,
+       "height": 1920,
+       "dominant_color": null
+      }
+     },
+     "alt_text": "Minimalist bedroom at dusk with layered sconce, lamp and pendant lighting"
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHhhQm9OVWJ6SlhMTlg2UHl0VVE3bUNLUjRmS2Zqd3R6SFBmQ3dzcGJvNV9aR3JRdw==",
+     "created_at": "Tue, 24 Mar 2026 21:03:39 +0000",
+     "pinner": {
+      "id": "1142647874115718996",
+      "username": "adeline_reynolds574",
+      "full_name": "Adeline Reynolds"
+     },
+     "board": {
+      "id": "1142647805397783947",
+      "name": "Minimalist bedroom",
+      "url": "/adeline_reynolds574/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#a89782",
+     "title": "Serene Minimalist Home: Calm Neutral Interiors",
+     "description": "Embrace simple living with serene, neutral tones. Discover minimalist bedroom ideas and modern decor for a clutter-free, stylish space. Elegant grids, soft textures, and calming vibes for a timeless home aesthetic",
+     "image_signature": "081e4d509f86e91bb48152e21cf1005a",
+     "grid_title": "Serene Minimalist Home: Calm Neutral Interiors",
+     "id": "e1_AfqPShxaBoNUbzJXLNX6PytUQ7mCKR4fKfjwtzHPfCwspbo5_ZGrQw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/08/1e/4d/081e4d509f86e91bb48152e21cf1005a.jpg",
+       "width": 236,
+       "height": 419,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/08/1e/4d/081e4d509f86e91bb48152e21cf1005a.jpg",
+       "width": 236,
+       "height": 419,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/08/1e/4d/081e4d509f86e91bb48152e21cf1005a.jpg",
+       "width": 474,
+       "height": 842,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/08/1e/4d/081e4d509f86e91bb48152e21cf1005a.jpg",
+       "width": 736,
+       "height": 1308,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/08/1e/4d/081e4d509f86e91bb48152e21cf1005a.jpg",
+       "width": 1080,
+       "height": 1920,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHdyLWNicC1wY1gwVkNKYXJzUm9mS2ZoTGZVeEF1emRsc3V3RE9xTmJSZmdkWTExZw==",
+     "created_at": "Fri, 09 Oct 2026 20:17:58 +0000",
+     "pinner": {
+      "id": "1130262975140433602",
+      "username": "bailee_towne780",
+      "full_name": "Bailee Towne"
+     },
+     "board": {
+      "id": "1130262906422448636",
+      "name": "Minimalist bedroom",
+      "url": "/bailee_towne780/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#524032",
+     "title": "Cozy Bedroom Oasis: Spacious Bed by Window Light",
+     "description": "Discover a serene bedroom with a large bed bathed in natural light from a generous window. Soft curtains, inviting textures, and tranquil vibes perfect for calm, stylish interiors. Pin for cozy bedroom inspiration and design ideas",
+     "image_signature": "b56f88649848d661107f5fe960bb455e",
+     "grid_title": "Cozy Bedroom Oasis: Spacious Bed by Window Light",
+     "id": "e1_AfqPShwr-cbp-pcX0VCJarsRofKfhLfUxAuzdlsuwDOqNbRfgdY11g",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/b5/6f/88/b56f88649848d661107f5fe960bb455e.jpg",
+       "width": 236,
+       "height": 432,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/b5/6f/88/b56f88649848d661107f5fe960bb455e.jpg",
+       "width": 236,
+       "height": 432,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/b5/6f/88/b56f88649848d661107f5fe960bb455e.jpg",
+       "width": 474,
+       "height": 869,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/b5/6f/88/b56f88649848d661107f5fe960bb455e.jpg",
+       "width": 736,
+       "height": 1349,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/b5/6f/88/b56f88649848d661107f5fe960bb455e.jpg",
+       "width": 768,
+       "height": 1408,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHkySHdDcFltLWMyYTJjbkpydWo2dWEwRGw4V0FEYnYzRlNuSHQ1TVFfWU9CT1lqdw==",
+     "created_at": "Wed, 14 Oct 2026 12:17:04 +0000",
+     "pinner": {
+      "id": "1145603361371434867",
+      "username": "akilaak1726",
+      "full_name": "butterfly_babes"
+     },
+     "board": {
+      "id": "1145603292654115483",
+      "name": "interior decor",
+      "url": "/akilaak1726/interior-decor/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#8c6c4c",
+     "title": "\ud83e\udd0d Serene Japandi Bedroom Corner | Quiet Luxury \ud83c\udf3f",
+     "description": "\ud83e\udd0d Serene Japandi Bedroom Corner | Quiet Luxury \ud83c\udf3f\n\nLess clutter, more calm. \u2728 Warm oak, soft beige linens, delicate paper lighting, and natural textures come together to create a peaceful sanctuary where simplicity feels luxurious.\n\nA little reminder that beautiful spaces don\u2019t need more \u2014 just the right details. \u2601\ufe0f\n\n\ud83d\udccc Save this for your dream bedroom inspiration!\n\n#JapandiStyle #JapandiBedroom #MinimalistBedroom #BedroomInspiration #QuietLuxury #InteriorDesign #NeutralInteriors #ScandinavianDesign #WabiSabi #BedroomDecor #PinterestHomeDecor #MinimalistHome #CozyInteriors",
+     "image_signature": "69dbea1e5b2a9ab469e4ed2f69296e27",
+     "grid_title": "\ud83e\udd0d Serene Japandi Bedroom Corner | Quiet Luxury \ud83c\udf3f",
+     "id": "e1_AfqPShy2HwCpYm-c2a2cnJruj6ua0Dl8WADbv3FSnHt5MQ_YOBOYjw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/69/db/ea/69dbea1e5b2a9ab469e4ed2f69296e27.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/69/db/ea/69dbea1e5b2a9ab469e4ed2f69296e27.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/69/db/ea/69dbea1e5b2a9ab469e4ed2f69296e27.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/69/db/ea/69dbea1e5b2a9ab469e4ed2f69296e27.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/69/db/ea/69dbea1e5b2a9ab469e4ed2f69296e27.png",
+       "width": 1024,
+       "height": 1536,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHdmMXNaSmhGSkZLRV9fNXRxOGc0RXkxWjF0Znhwb2dBNUFxMUFqX1ltUGFqUmw=",
+     "created_at": "Thu, 15 Oct 2026 19:01:38 +0000",
+     "pinner": {
+      "id": "295971144169734091",
+      "username": "rcastrogv",
+      "full_name": "RCASTROGV"
+     },
+     "board": {
+      "id": "295971075451348758",
+      "name": "Decoraci\u00f3n",
+      "url": "/rcastrogv/decoraci%C3%B3n/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#715239",
+     "title": "Dormitorio sereno al atardecer",
+     "description": "Madera clara, ropa de cama de lino, una \u00fanica mesilla y luz c\u00e1lida para un ambiente tranquilo.",
+     "image_signature": "26221d39cf1ad5af8eec246a48968083",
+     "grid_title": "Dormitorio sereno al atardecer",
+     "id": "e1_AfqPShwf1sZJhFJFKE__5tq8g4Ey1Z1tfxpogA5Aq1Aj_YmPajRl",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/26/22/1d/26221d39cf1ad5af8eec246a48968083.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/26/22/1d/26221d39cf1ad5af8eec246a48968083.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/26/22/1d/26221d39cf1ad5af8eec246a48968083.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/26/22/1d/26221d39cf1ad5af8eec246a48968083.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/26/22/1d/26221d39cf1ad5af8eec246a48968083.png",
+       "width": 1024,
+       "height": 1536,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlBaUlBejhJSzdJZFROX3hDQjBFNkNhZncwSHctZU4tX2hOczFGNkhjZzFQdmNEdw==",
+     "created_at": "Sun, 11 Oct 2026 21:06:18 +0000",
+     "pinner": {
+      "id": "1137229480814050188",
+      "username": "celestine_roob87",
+      "full_name": "Celestine Roob"
+     },
+     "board": {
+      "id": "1137229412096198105",
+      "name": "Minimalist bedroom",
+      "url": "/celestine_roob87/minimalist-bedroom/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#b4a997",
+     "title": "Cozy Fall Decor Ideas for Every Room",
+     "description": "Transform your home with warm textures, amber lighting, and seasonal accents. Quick, budget-friendly DIYs and styling tips to create a welcoming, Pinterest-perfect space this autumn",
+     "image_signature": "a3325f391ea5487b32f5816338258de0",
+     "grid_title": "Cozy Fall Decor Ideas for Every Room",
+     "id": "e1_AfqPShyAiIAz8IK7IdTN_xCB0E6Cafw0Hw-eN-_hNs1F6Hcg1PvcDw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/a3/32/5f/a3325f391ea5487b32f5816338258de0.jpg",
+       "width": 236,
+       "height": 316,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/a3/32/5f/a3325f391ea5487b32f5816338258de0.jpg",
+       "width": 236,
+       "height": 316,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/a3/32/5f/a3325f391ea5487b32f5816338258de0.jpg",
+       "width": 474,
+       "height": 634,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/a3/32/5f/a3325f391ea5487b32f5816338258de0.jpg",
+       "width": 736,
+       "height": 985,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/a3/32/5f/a3325f391ea5487b32f5816338258de0.jpg",
+       "width": 896,
+       "height": 1200,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHdqZWJMM0RySUVCOWdBRThLYXNLM1A2eEZDS1lxNXhLZXh1SjRtcVZoWHVack1sQQ==",
+     "created_at": "Wed, 05 Aug 2026 22:32:36 +0000",
+     "pinner": {
+      "id": "1149966223510370170",
+      "username": "thedecorlove",
+      "full_name": "The Decor Love"
+     },
+     "board": {
+      "id": "1149966154792936028",
+      "name": "Minimalist Home Decor",
+      "url": "/thedecorlove/minimalist-home-decor/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#957f67",
+     "title": "Minimalist Bedroom Ideas for a Calm, Clutter-Free Retreat",
+     "description": "Minimalist bedroom ideas for a calm, clutter-free retreat you'll love. Discover simple furniture layouts, neutral color palettes, and easy styling tips for a peaceful, functional bedroom. Perfect inspiration for anyone wanting a minimalist home aesthetic. Save this pin for your next bedroom refresh! #minimalistbedroom #bedroomdecorideas #minimalistdesign #homedecorideas #bedroominspiration",
+     "image_signature": "ad2090a14341c42a271ce6d90c0c0b2b",
+     "grid_title": "Minimalist Bedroom Ideas for a Calm, Clutter-Free Retreat",
+     "id": "e1_AfqPShwjebL3DrIEB9gAE8KasK3P6xFCKYq5xKexuJ4mqVhXuZrMlA",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/ad/20/90/ad2090a14341c42a271ce6d90c0c0b2b.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/ad/20/90/ad2090a14341c42a271ce6d90c0c0b2b.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/ad/20/90/ad2090a14341c42a271ce6d90c0c0b2b.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/ad/20/90/ad2090a14341c42a271ce6d90c0c0b2b.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/ad/20/90/ad2090a14341c42a271ce6d90c0c0b2b.png",
+       "width": 1024,
+       "height": 1536,
+       "dominant_color": null
+      }
+     },
+     "alt_text": "A minimalist bedroom with a low platform bed, neutral bedding, and clutter-free styling \u2014 calm minimalist bedroom decor inspiration."
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHpYMGJ5dmlSam90MmxKZ25lODRaNXMxWlNhNHVGYi1rZG9GWjVfaVp3NTZMSHRJdw==",
+     "created_at": "Thu, 15 Oct 2026 16:31:05 +0000",
+     "pinner": {
+      "id": "1068690323984830542",
+      "username": "MinimalHaven101",
+      "full_name": "Minimal Haven"
+     },
+     "link": "https://minimalhaven.com/how-to-arrange-furniture-in-odd-shaped-bedroom/",
+     "board": {
+      "id": "1068690255266270291",
+      "name": "Bedroom Area Rugs",
+      "url": "/MinimalHaven101/bedroom-area-rugs/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "minimalhaven.com",
+     "dominant_color": "#786b5b",
+     "title": "Narrow Bedroom Furniture Arrangement Tips",
+     "description": "In railroad-style bedrooms, float the bed at the far end and keep the long walls clear. Slim nightstands and vertical storage keep the walkway open. A proven layout for narrow bedrooms.",
+     "image_signature": "5b1df4b7f1d731ba6aabe7cebd4eee6f",
+     "grid_title": "Narrow Bedroom Furniture Arrangement Tips",
+     "id": "e1_AfqPShzX0byviRjot2lJgne84Z5s1ZSa4uFb-kdoFZ5_iZw56LHtIw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/5b/1d/f4/5b1df4b7f1d731ba6aabe7cebd4eee6f.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/5b/1d/f4/5b1df4b7f1d731ba6aabe7cebd4eee6f.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/5b/1d/f4/5b1df4b7f1d731ba6aabe7cebd4eee6f.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/5b/1d/f4/5b1df4b7f1d731ba6aabe7cebd4eee6f.jpg",
+       "width": 512,
+       "height": 768,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/5b/1d/f4/5b1df4b7f1d731ba6aabe7cebd4eee6f.jpg",
+       "width": 512,
+       "height": 768,
+       "dominant_color": null
+      }
+     }
+    },
+    {
+     "node_id": "UGluOmUxX0FmcVBTaHlHX2RQQjloRDYzZ0U2NDBLT2JwNWNITVRoZDlDX2NWdG9ZZUhFcC0xZ2pmUHNRdw==",
+     "created_at": "Tue, 13 Oct 2026 02:01:50 +0000",
+     "pinner": {
+      "id": "1108237558213080661",
+      "username": "walkalexs",
+      "full_name": "Alexis Walker"
+     },
+     "board": {
+      "id": "1108237489495756774",
+      "name": "Home decor",
+      "url": "/walkalexs/home-decor/",
+      "type": "board"
+     },
+     "type": "pin",
+     "domain": "Uploaded by user",
+     "dominant_color": "#957b34",
+     "title": "",
+     "description": " ",
+     "image_signature": "012ddcd5e0f2f17bb4098335ed549644",
+     "grid_title": "",
+     "id": "e1_AfqPShyG_dPB9hD63gE640KObp5cHMThd9C_cVtoYeHEp-1gjfPsQw",
+     "images": {
+      "170x": {
+       "url": "https://i.pinimg.com/236x/01/2d/dc/012ddcd5e0f2f17bb4098335ed549644.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "236x": {
+       "url": "https://i.pinimg.com/236x/01/2d/dc/012ddcd5e0f2f17bb4098335ed549644.jpg",
+       "width": 236,
+       "height": 354,
+       "dominant_color": null
+      },
+      "474x": {
+       "url": "https://i.pinimg.com/474x/01/2d/dc/012ddcd5e0f2f17bb4098335ed549644.jpg",
+       "width": 474,
+       "height": 711,
+       "dominant_color": null
+      },
+      "736x": {
+       "url": "https://i.pinimg.com/736x/01/2d/dc/012ddcd5e0f2f17bb4098335ed549644.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      },
+      "orig": {
+       "url": "https://i.pinimg.com/originals/01/2d/dc/012ddcd5e0f2f17bb4098335ed549644.jpg",
+       "width": 736,
+       "height": 1104,
+       "dominant_color": null
+      }
+     }
+    }
+   ]
+  }
+ }
+}

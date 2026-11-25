@@ -1,0 +1,36 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace "org.pinfall.pinfall"
+    compileSdk 35
+    ndkVersion "28.2.13676358"
+
+    defaultConfig {
+        applicationId "org.pinfall.pinfall"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "0.1.0"
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_STL=c++_static", "-DANDROID_PLATFORM=android-24"
+                abiFilters 'arm64-v8a'
+                cFlags "-O2"
+            }
+        }
+    }
+    buildTypes {
+        debug { debuggable true }
+        release { minifyEnabled false }
+    }
+    externalNativeBuild {
+        cmake { path 'jni/CMakeLists.txt' }
+    }
+    sourceSets.main {
+        jniLibs.srcDir 'libs'
+    }
+    androidResources {
+        noCompress 'ttf'
+    }
+    lint { abortOnError false }
+}
